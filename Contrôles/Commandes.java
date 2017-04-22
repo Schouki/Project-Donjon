@@ -1,6 +1,4 @@
-package Contrôles;
-
-//ca me saoule
+package ContrÃ´les;
 
 import java.awt.event.*;
 import javax.swing.*;
@@ -86,7 +84,7 @@ public class Commandes extends JPanel implements KeyListener, ActionListener {
 		}
 		if (c == KeyEvent.VK_SPACE){
 			p.setHit(1);
-			p.épée(m);
+			p.Ã©pÃ©e(m);
 		}
 		if (c == KeyEvent.VK_T){
 			p.setTir(1);
